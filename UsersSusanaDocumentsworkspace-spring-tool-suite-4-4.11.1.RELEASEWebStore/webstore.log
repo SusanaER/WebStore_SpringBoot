@@ -1,0 +1,48 @@
+[2021-09-04 22:27:50] [ INFO ] [Factory:13] Creating factory: org.hibernate.internal.SessionFactoryImpl@7cac93fe
+ [2021-09-04 22:27:50] [ INFO ] [Factory:22] Open sessionFactory: (SessionImpl(1915193269<open>)) in ManageArticles
+ [2021-09-04 22:27:50] [ INFO ] [Factory:25] adding a article - name: Orange Ball - description: The best orange ball you will find - price: 160.5
+ [2021-09-04 22:27:50] [ INFO ] [Factory:30] Added data (11) from addArticles, finished
+ [2021-09-04 22:27:50] [ INFO ] [Factory:36] Closing session SessionImpl(1915193269<open>)
+ [2021-09-04 22:27:51] [ INFO ] [Factory:13] Creating factory: org.hibernate.internal.SessionFactoryImpl@56d822dc
+ [2021-09-04 22:27:51] [ INFO ] [Factory:23] Open sessionFactory: (SessionImpl(231256831<open>)) in ManageClients
+ [2021-09-04 22:27:51] [ INFO ] [Factory:28] adding a client - Name: (Marco) - Last Name: (Regil) - Username: (MarcoR) - Password: (contraMarco) - Email: (marcoregil@gmail.com).
+ [2021-09-04 22:27:51] [ INFO ] [Factory:34] Added data: (11) from addClient, finished
+ [2021-09-04 22:27:51] [ INFO ] [Factory:40] Closing session: SessionImpl(231256831<open>)
+ [2021-09-04 22:27:52] [ INFO ] [Factory:13] Creating factory: org.hibernate.internal.SessionFactoryImpl@62ab5e63
+ [2021-09-04 22:27:52] [ INFO ] [Factory:20] Open sessionFactory: (SessionImpl(1911551651<open>)) in ManageCreditCard
+ [2021-09-04 22:27:52] [ INFO ] [Factory:25] adding a Credit Card - Number: (12312312) - Cardholder: (Marco Regil) - Type Credit Card: (clases.TypeCc@574218f).
+ [2021-09-04 22:27:52] [ INFO ] [Factory:30] Added data: (11) from addCreditCard, finished
+ [2021-09-04 22:27:52] [ INFO ] [Factory:36] Closing session: SessionImpl(1911551651<open>)
+ [2021-09-04 22:27:52] [ INFO ] [Factory:18] Open sessionFactory (SessionImpl(729827711<open>)) in ManageArticlePurchase
+ [2021-09-04 22:27:52] [ INFO ] [Factory:23] Adding relationship between Client: (clases.Clients@56402642) and CreditCard: (clases.CreditCards@620572db)
+ [2021-09-04 22:27:52] [ INFO ] [Factory:28] Added data: (11) from addClientCreditCard, finished
+ [2021-09-04 22:27:52] [ INFO ] [Factory:34] Closing session: SessionImpl(729827711<open>)
+ [2021-09-04 22:27:52] [ INFO ] [Factory:13] Creating factory: org.hibernate.internal.SessionFactoryImpl@45cb5307
+ [2021-09-04 22:27:52] [ INFO ] [Factory:22] Open sessionFactory: (SessionImpl(1924981513<open>)) in ManageDeliveryAddress
+ [2021-09-04 22:27:52] [ INFO ] [Factory:27] adding a Delivery Address - City: (clases.City@f439e0f) - Country: (clases.Country@62410e1f) - State: (clases.State@5296f00c) - Street: (Terreno blanco) - Number: (178).
+ [2021-09-04 22:27:52] [ INFO ] [Factory:33] Added data: (15)from addDeliberyAddress, finished
+ [2021-09-04 22:27:52] [ INFO ] [Factory:39] Closing session: SessionImpl(1924981513<open>)
+ [2021-09-04 22:27:52] [ INFO ] [Factory:20] Open sessionFactory: (SessionImpl(1257637609<open>)) in ManageClientDelAdd
+ [2021-09-04 22:27:52] [ INFO ] [Factory:23] Adding relationship between Client: (clases.Clients@17dbca0a) and DeliveryAddress: (clases.DeliveryAddress@33765d22).
+ [2021-09-04 22:27:52] [ INFO ] [Factory:28] Added data: (11) from addClientCreditCard, finished
+ [2021-09-04 22:27:52] [ INFO ] [Factory:34] Closing session: SessionImpl(1257637609<open>)
+ [2021-09-04 22:27:53] [ INFO ] [Factory:13] Creating factory: org.hibernate.internal.SessionFactoryImpl@8bde368
+ [2021-09-04 22:27:53] [ INFO ] [Factory:21] Open sessionFactory: (SessionImpl(1191855215<open>)) in ManageDeliveryAddress
+ [2021-09-04 22:27:53] [ INFO ] [Factory:27] adding a Delivery Packeges - Delibery Company: (clases.DeliveryCompany@55315a00) - Packege Number: (119955).
+ [2021-09-04 22:27:53] [ INFO ] [Factory:32] Added data: (11) from addDeliberyPackages, finished
+ [2021-09-04 22:27:53] [ INFO ] [Factory:38] Closing session: SessionImpl(1191855215<open>)
+ [2021-09-04 22:27:53] [ INFO ] [Factory:13] Creating factory: org.hibernate.internal.SessionFactoryImpl@3c9c91e3
+ [2021-09-04 22:27:53] [ INFO ] [Factory:22] Open sessionFactory: (SessionImpl(1109753335<open>)) in ManageDeliveryAddress
+ [2021-09-04 22:27:53] [ INFO ] [Factory:28] adding a Purchase Order - Client: (clases.Clients@7b11ff9a) - Delivery Packeges: (clases.DeliveryPackeges@3bd79444).
+ [2021-09-04 22:27:53] [ INFO ] [Factory:33] Added data: (11) from addPurchaseOrder, finished
+ [2021-09-04 22:27:53] [ INFO ] [Factory:39] Closing session: SessionImpl(1109753335<open>)
+ [2021-09-04 22:27:53] [ INFO ] [Factory:19] Open sessionFactory: (SessionImpl(673429445<open>)) in ManageArticlePurchase
+ [2021-09-04 22:27:53] [ INFO ] [Factory:22] Adding relationship between Article: (11) and Purchase: (11).
+ [2021-09-04 22:27:53] [ INFO ] [Factory:27] Added data: (11) from addArticlePurchase, finished
+ [2021-09-04 22:27:53] [ INFO ] [Factory:33] Closing session SessionImpl(673429445<open>)
+ [2021-09-04 22:27:54] [ INFO ] [Factory:13] Creating factory: org.hibernate.internal.SessionFactoryImpl@19bbb216
+ [2021-09-04 22:27:54] [ INFO ] [Factory:23] Open sessionFactory: (SessionImpl(783488821<open>)) in ManageBilling
+ [2021-09-04 22:27:54] [ INFO ] [Factory:26] adding a billing - PurchaseOrder: (clases.PurchaseOrders@73753326) - Amount: 36.8
+ [2021-09-04 22:27:54] [ INFO ] [Factory:31] Added data: 11 from addBilling, finished
+ [2021-09-04 22:27:54] [ INFO ] [Factory:37] Closing session: SessionImpl(783488821<open>)
+ 
